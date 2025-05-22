@@ -8,9 +8,9 @@ Standard cross-entropy loss, commonly used in training text generation models, t
 
 The Power-Law Decay Loss (PDL) addresses this limitation by re-weighting the contribution of each token in the standard cross-entropy loss based on its frequency in a reference corpus. This approach is inspired by observations in information theory and linguistics, where a token's informativeness is often inversely proportional to its frequency.
 
-[![demo platform](https://img.shields.io/badge/Play%20with%20VAR%21-VAR%20demo%20platform-lightblue)]()&nbsp;
+
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2404.02905-b31b1b.svg)](https://arxiv.org/pdf/2505.10222)&nbsp;
-[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-FoundationVision/var-yellow)]()&nbsp;
+
 
 
 **Key Idea of PDL:**
